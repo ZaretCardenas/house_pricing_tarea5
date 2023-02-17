@@ -1,0 +1,12 @@
+INFO:root:Started loading data
+INFO:src.procesing:Shape after loading data =1460
+INFO:src.procesing:Saving the graphs in images/ heat_map.png and boxplot.png
+INFO:root:Started preprocess
+WARNING:root:This variables were been erased ['Id', 'Alley', 'PoolQC', 'MiscFeature', 'Fence', 'MoSold', 'YrSold', 'MSSubClass', 'GarageType', 'GarageArea', 'GarageYrBlt', 'GarageFinish', 'YearRemodAdd', 'LandSlope', 'BsmtUnfSF', 'BsmtExposure', '2ndFlrSF', 'LowQualFinSF', 'Condition1', 'Condition2', 'Heating', 'Exterior1st', 'Exterior2nd', 'HouseStyle', 'LotShape', 'LandContour', 'LotConfig', 'Functional', 'BsmtFinSF1', 'BsmtFinSF2', 'FireplaceQu', 'WoodDeckSF', 'GarageQual', 'GarageCond', 'OverallCond']
+INFO:src.procesing:Shape after preprocessing =1460
+INFO:root:Started Featurizing
+WARNING:root:This variables were been erased ['OverallQual', 'ExterCond', 'ExterQual', 'BsmtCond', 'BsmtQual', 'BsmtFinType1', 'BsmtFinType2', 'HeatingQC', 'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath', 'SaleType']
+INFO:src.procesing:Shape after featurizing =1460
+INFO:root:Started Trainning
+INFO:src.procesing:Score mean of cross validation =0.8492597061583149
+INFO:src.utils:Saving result/submission.csv
